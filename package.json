@@ -1,0 +1,42 @@
+{
+  "name": "faster",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.0.3",
+    "axios": "^1.7.7",
+    "echarts": "^5.5.1",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.1",
+    "mockjs": "^1.1.0",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.2.2",
+    "query-string": "^9.1.0",
+    "sortablejs": "^1.15.3",
+    "store": "^2.0.12",
+    "style-resources-loader": "^1.5.0",
+    "vue": "^3.4.37",
+    "vue-echarts": "^7.0.3",
+    "vue-i18n": "^9.14.0",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.56.1",
+    "@arco-plugins/vite-vue": "^1.4.5",
+    "@types/node": "^22.5.3",
+    "@types/nprogress": "^0.2.3",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "less": "^4.2.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vite-svg-loader": "^5.1.0",
+    "vue-tsc": "^2.0.29"
+  }
+}
